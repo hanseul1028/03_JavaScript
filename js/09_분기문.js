@@ -165,18 +165,18 @@ function startGame(){
             break;
         }
 
-        if(value >= answer){
-            alert(`DOWN (현재${count})회`);
-        }
-
-        if(value <= answer){
-            alert(`UP (현재${count})회`);
-        }
-
-        if(count >= 7){
+        if(count === 7){
             alert(`7회 초과로 실패! (정답:${answer}`);
             break;
         }
+
+        if(value > answer){
+            alert(`DOWN (현재${count})회`);
+        }
+        else(value < answer){
+            alert(`UP (현재${count})회`);
+        }
+
 
     } // while end
       // 함수 끝
