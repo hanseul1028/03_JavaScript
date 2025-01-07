@@ -45,6 +45,7 @@ function createTable(){
         return;
      }
 
+     
      // #thead 에 들어갈 html 코드 생성
      let output1 = '<tr>';  // tr 생성
      for(let num = start ; num <= end ; num++){  //th 생성
