@@ -166,14 +166,14 @@ function startGame(){
         }
 
         if(count === 7){
-            alert(`7회 초과로 실패! (정답:${answer}`);
+            alert(`7회 입력 실패! (정답:${answer}`);
             break;
         }
 
         if(value > answer){
             alert(`DOWN (현재${count})회`);
         }
-        else(value < answer){
+        if (value < answer){
             alert(`UP (현재${count})회`);
         }
 
