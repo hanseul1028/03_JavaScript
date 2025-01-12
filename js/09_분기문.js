@@ -180,15 +180,4 @@ function startGame(){
 
     } // while end
       // 함수 끝
-
-
-
-
-
-
-
-
-
-
-
 }
