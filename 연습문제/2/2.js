@@ -7,5 +7,7 @@ for(let div of divs){
         switch(str){}
 
         str += div.value + " ";
+        
+        const result = document.querySelector("[.container]:checked");
     });
 }
