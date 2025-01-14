@@ -37,7 +37,7 @@ applyBtn.addEventListener("click", () => {
     box.style.color = fontColor.value;
   }
 
-  // 배경 색을 입력하는 input에 값이 작성되어 있다면
+  // 배경 색을 입력하는 input에  값이 작성되어 있다면
   if(bgColor.value.trim().length > 0){
     box.style.backgroundColor = bgColor.value;
   }

@@ -1,13 +1,24 @@
-const divs = document.querySelectorAll(".number");
+const numbers = document.querySelectorAll(".number"); // 버튼
+const result = document.querySelector("#result"); // 결과
+const reset = document.querySelector("#reset");
 
-for(let div of divs){
-    div.addEventListener("click", (e) => {
+// 향상된 for 문
+for(let num of numbers){
+    num.addEventListener("click", (e) => {
 
-        const str = e.target.innerText;
-        switch(str){}
+        if(result.textContent.length >= 10){
+            alert("10자 까지만 입력할 수 있습니다.");
+            return;
+        }
 
-        str += div.value + " ";
+        // e.target : 이벤트가 발생된 요소
+        // textContent = innerText
+        result.textContent += e.target.textContent; // 버튼 내용 누적
         
-        const result = document.querySelector("[.container]:checked");
     });
 }
+
+// 초기화 버튼 클릭 시
+reset.addEventListener("click", ()=>{
+    result.textContent = ""; // 누적된 번호 모두 삭제
+});
