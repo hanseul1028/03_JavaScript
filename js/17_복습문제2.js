@@ -59,7 +59,7 @@ for(let i = 0 ; i < radioBtns.length ; i++){
             of 앞의 변수에 대입하는 for 문
         */
         for(let box of boxes){
-            // boxes[0] ~ boxees[4] 까지 
+            // boxes[0] ~ boxes[4] 까지 
             // for 문이 반복 될 때 마다
             // 1개씩 차례대로 box 변수에 대입
 

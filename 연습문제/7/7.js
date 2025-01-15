@@ -40,7 +40,7 @@ deleteBtn.addEventListener("click", (e)=>{
     if(document.querySelectorAll(".check:checked")
 
     ){
-        e.target.remove();
+        e.target.div.remove();
 
     }
 
