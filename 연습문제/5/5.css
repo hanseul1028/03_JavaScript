@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* 전체 */
+.main1{
+    width: 700px;
+    /* height: 800px; */
+    display: flex;
+    flex-direction: row;
+    margin: 20px; 
+    padding: 20px; 
+
+    border: 1px solid skyblue;
+}
+
+
+/* 왼쪽화면 */
+.section1{
+    width: 400px;
+    height: 700px;
+    display: flex;
+    border-right: 2px solid lightgray;
+    flex-direction: column;
+}
+
+
+/* result  / 입력한 숫자 표시 영역 */
+.div1{
+    height: 100px;
+    display: flex;
+    border-bottom: 2px solid lightgray;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* 숫자, 추가, 초기화 영역 */
+.div2{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+/* 숫자 */
+.number{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    
+    line-height: 120px;
+    cursor: pointer;
+    user-select: none;
+    
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.number:hover{
+    background-color: lightgray;
+    border-radius: 50%;
+}
+.number:active{
+    scale: 1.05;    
+}
+
+/* 추가 */
+#addBtn{
+    height: 60px;
+    width: 350px;
+    color: green;
+
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addBtn:hover{
+    background-color: green;
+    color: white;
+}
+
+#addBtn:active{
+    background-color: green;
+    color: white;
+}
+
+/* 초기화 */
+
+#resetBtn{
+    height: 60px;
+    width: 350px;
+    color: gray;
+
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resetBtn:active{
+    background-color: gray;
+    color: white;
+}
+
+#resetBtn:hover{
+    background-color: gray;
+    color: white;
+}
+
+/* 오른쪽 화면 */
+.section2{
+    flex-direction: column;
+    width: 300px;
+}
+
+/* 전화번호 목록 */
+.div3{
+    height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* record / 추가된 번호 기록하는 영역 */
+
+#record{
+    /* background-color: lightblue; */
+    /* display : flex; */
+    /* flex-wrap: nowrap; */
+}
+
+/* 번호 */
+.span1{
+    width: 200px;
+    /* background-color: lightgray; */
+    display: inline-block;
+}
+
+/* x 표시 */
+.span3{
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+
+    /* display: flex; */
+    /* justify-content: end; */
+    /* align-items: end; */
+}
+
+.span3:active{
+    color: red;
+}
