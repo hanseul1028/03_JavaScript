@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8</title>
+    <link rel="stylesheet" href="../8_회원등록시스템/8.css">
+</head>
+<body>
+    <header>
+
+        <h1>회원등록시스템</h1>
+
+    </header>
+
+    
+    <main>
+        <!-- 왼쪽 -->
+        <section class="section1">
+            <h3>회원 등록</h3>
+            <br>
+            아이디 :
+            <br>
+            <input type="text" class="input">
+            <br>
+            이름 :
+            <br>
+            <input type="text" class="input">
+            <br>
+            전화번호 :
+            <br>
+            <input type="text" class="input">
+            <br>
+            <button id="updateBtn">등록</button>
+            
+        </section>
+        
+        
+        
+        <!-- 오른쪽 -->
+        <section class="section2">
+            
+            <h3>등록된 회원 목록</h3>
+
+            <!-- 선택삭제 버튼 -->
+             <button id="deleteBtn">선택 삭제</button>
+             <br>
+
+
+            <!-- 회원 목록 표 -->
+             <table>
+
+                 <tr>
+                     <th><input type="checkbox"></th>
+                     <th>아이디</th>
+                     <th>이름</th>
+                     <th>전화번호</th>
+                </tr>
+                    
+            </table>
+        </section>
+    </main>
+
+    <br>
+
+    <footer>
+
+        <hr>
+        <br>
+        <pre>
+        <strong>[요구사항]</strong>
+
+        입력 폼 구현
+        -화면 왼쪽에 구현
+        - 아이디, 이름, 전화번호를 입력받을 수 있는 입력 필드 구현
+        - 모든 필드는 필수 입력 항목
+        
+        회원 등록 기능
+        - 등록 버튼 클릭 시 입력된 정보의 유효성 검사
+        - 아이디 중복 검사 구현
+        - 전화번호 중복 검사 구현
+        - 중복된 정보가 있을 경우 적절한 경고(alert) 메시지 출력 
+        - 등록 성공 시 입력 필드 초기화
+
+        회원 목록 표시
+        - 화면 오른쪽에 구현
+        - 등록된 회원 정보를 테이블 형태로 표시
+        - 각 행에 체크박스 추가
+        - 테이블 헤더에 전체 선택/해제 체크박스 구현
+
+        회원 삭제 기능
+        - 선택된 회원을 삭제할 수 있는 삭제 버튼 구현
+        - 체크된 항목이 없을 경우 경고 메시지 출력
+  
+        </pre>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="../8_회원등록시스템/8.js"></script>
+</body>
+</html>

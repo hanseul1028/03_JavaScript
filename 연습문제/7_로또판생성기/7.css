@@ -1,0 +1,54 @@
+/* 전체 */
+*{
+    box-sizing: border-box;
+}
+
+
+/* 버튼 영역 숨기기 */
+.b-hidden{
+    display: none;
+}
+
+/* 버튼 영역 보이기 */
+.b-show{
+    display: block;
+}
+
+
+/* 숫자들이 들어있는 box */
+.container{
+
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+
+    display: flex ;
+    flex-wrap: wrap;
+
+    width: 230px;
+    height: 400px;
+
+    align-content: space-evenly;
+
+}
+
+/* 숫자 */
+.number{
+    border: 1px solid black;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+
+    margin: 5px;
+
+
+}
+
+.active {
+    background-color: skyblue;
+}

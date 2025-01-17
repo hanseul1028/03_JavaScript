@@ -184,7 +184,7 @@ function createLottoNumber(){
     }
 }
 
-// 2차원 배열 확인 1
+// 2차원 배열 확인 1ㅡ
 function check6(){
 
     // 변수 선언

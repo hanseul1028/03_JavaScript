@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;   
+}
+
+/* 제목 부분 */
+header{
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* 가운데 부분 */
+main{
+    display: flex;
+    flex-direction: row;
+
+    height: 300px;
+}
+
+/* 왼쪽 영역. */
+.section1{
+    width: 50%;
+}
+
+.input{
+    width: 350px;
+    height: 25px;
+}
+
+/* 등록 버튼 */
+#updateBtn{
+    width: 50px;
+    height: 30px;
+    
+    color: white;
+    background-color: green;
+    border: none;
+    
+    font-size: 12px;
+}
+
+/* 선택삭제 버튼 */
+#deleteBtn{
+    width: 80px;
+    height: 30px;
+    
+    color: white;
+    background-color: green;
+    border: none;
+    
+    font-size: 12px;
+}
+
+
+/* 오른쪽 부분 */
+.section2{
+    width: 50%;
+}
+
+/* 표 */
+table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 350px;
+
+    text-align: left;
+}
+
+th{
+    background-color: lightcyan;
+}
+
+/* 설명 부분 */
+
+footer{
+    text-align: left;
+    /* display: flex; */
+}
